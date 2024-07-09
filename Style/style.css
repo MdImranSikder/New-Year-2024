@@ -113,7 +113,8 @@ body{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background:linear-gradient(90.00deg, rgba(7, 2, 17,1),rgba(7, 2, 17, 0)) , url('/images/Vectorrr.png');
+    background-image:url('/images/Vectorrr.png'); 
+    /* background:linear-gradient(90.00deg, rgba(7, 2, 17,1),rgba(7, 2, 17, 0)) , url('/images/Vectorrr.png'); */
    
     background-size: cover;
     border-radius: 16px;
