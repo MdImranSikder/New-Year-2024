@@ -113,7 +113,7 @@ body{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-   background-image: url('/images/Vectorrr.png');
+   background-image: url('../images/Vectorrr.png');
     /* background:linear-gradient(90.00deg, rgba(7, 2, 17,1),rgba(7, 2, 17, 0)) , url('/images/Vectorrr.png'); */
    
     background-size: cover;
@@ -219,6 +219,8 @@ border: none;
     height: 350px;
     display: flex;
     margin: 0 auto;
+    /* background-image: linear-gradient(rgba(256,0,0,.5),(rgba(256,0,256,.5))); */
+    background-blend-mode: overlay;
 }
 .celebration-div-1{
     width: 30%;
