@@ -113,7 +113,7 @@ body{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background-image:url('/images/Vectorrr.png'); 
+    background-image:url('../images/Vectorrr.png'); 
     /* background:linear-gradient(90.00deg, rgba(7, 2, 17,1),rgba(7, 2, 17, 0)) , url('/images/Vectorrr.png'); */
    
     background-size: cover;
@@ -137,7 +137,7 @@ body{
     margin: 0 auto;
     
    
-    /* Layer 1 */
+ 
 
     
 }
@@ -214,4 +214,57 @@ button{
 
 background: rgb(255, 0, 0);
 border: none;
+}
+/* celebration section */
+.celebration-section{
+    width: 900px;
+    height: 350px;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+}
+.celebration-div-1{
+    width: 33%;
+    height: auto;
+    border: 2px solid  black;
+    margin: 40px;
+}
+.celebration-div-2{
+    width: 33%;
+    height: auto;
+    border: 2px solid yellow;
+}
+.celebration-div-3{
+    width: 33%;
+    height: auto;
+    border: 2px solid green;
+}
+.best-offer{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.coming-soon{
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: capitalize;
+}
+.best-offer-description{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 11px;
+    letter-spacing: 0%;
+    text-align: left;
 }
